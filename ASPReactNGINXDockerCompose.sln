@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPReactNGINXDockerCompose", "ASPReactNGINXDockerCompose\ASPReactNGINXDockerCompose.csproj", "{BD25AA76-5189-46F8-98EC-EEC6FE75E68B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0E905EFD-E0F4-46D9-BB27-A8B1E254A459}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD25AA76-5189-46F8-98EC-EEC6FE75E68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD25AA76-5189-46F8-98EC-EEC6FE75E68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD25AA76-5189-46F8-98EC-EEC6FE75E68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD25AA76-5189-46F8-98EC-EEC6FE75E68B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E905EFD-E0F4-46D9-BB27-A8B1E254A459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E905EFD-E0F4-46D9-BB27-A8B1E254A459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E905EFD-E0F4-46D9-BB27-A8B1E254A459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E905EFD-E0F4-46D9-BB27-A8B1E254A459}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0A33A4B-0140-4B9B-B085-918E1818B5CD}
+	EndGlobalSection
+EndGlobal

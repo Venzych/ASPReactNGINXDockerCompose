@@ -1,0 +1,12 @@
+services:
+  backend:
+    image: ${DOCKER_REGISTRY-}aspreactnginxdockercompose
+    build:
+      context: .
+      dockerfile: ASPReactNGINXDockerCompose/Dockerfile
+      
+  client:
+    image: client
+    build:
+        context: ./asp-client
+        dockerfile: Dockerfile
