@@ -1,1 +1,2 @@
 # ASPReactNGINXDockerCompose
+Now without MGINX
